@@ -1,0 +1,23 @@
+{
+  "name": "credit-card-system-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "PORT=3001 node ./bin/www",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "joi": "^14.3.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.7.5",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "jest-runner-eslint": "^0.7.5",
+    "supertest": "^4.0.2"
+  }
+}
