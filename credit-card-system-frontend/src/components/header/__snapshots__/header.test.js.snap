@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Header 1`] = `
+<nav
+  className="navbar navbar-expand-lg navbar-light bg-light"
+>
+  <a
+    className="navbar-brand"
+    href="#home"
+  >
+     Credit Card System 
+  </a>
+</nav>
+`;

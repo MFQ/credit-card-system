@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render CardContainer 1`] = `
+<div>
+  <div
+    className="card-form"
+  >
+    <h5>
+       Add card 
+    </h5>
+    <form
+      className=""
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-label"
+        >
+           Name 
+        </label>
+        <input
+          className="form-control"
+          name="name"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+        
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-label"
+        >
+           Card Number 
+        </label>
+        <input
+          className="form-control"
+          name="cardNumber"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+        
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-label"
+        >
+           Limit 
+        </label>
+        <input
+          className="form-control"
+          name="limit"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+        
+      </div>
+      <button
+        className="btn btn-primary"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+         Add 
+      </button>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`Render CardForm 1`] = `
+<div
+  className="card-form"
+>
+  <h5>
+     Add card 
+  </h5>
+  <form
+    className=""
+  >
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+      >
+         Name 
+      </label>
+      <input
+        className="form-control"
+        name="name"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+      >
+         Card Number 
+      </label>
+      <input
+        className="form-control"
+        name="cardNumber"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+      >
+         Limit 
+      </label>
+      <input
+        className="form-control"
+        name="limit"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      
+    </div>
+    <button
+      className="btn btn-primary"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+       Add 
+    </button>
+  </form>
+</div>
+`;
+
+exports[`Render CardsList 1`] = `
+<div>
+  <h5>
+     Existing Cards 
+  </h5>
+  <table
+    className="table table-striped table-bordered table-hover"
+  >
+    <thead>
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Card Number
+        </th>
+        <th>
+          Balance
+        </th>
+        <th>
+          Limit
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          asa
+        </td>
+        <td>
+          213
+        </td>
+        <td>
+          11
+        </td>
+        <td>
+          12
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
