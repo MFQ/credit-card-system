@@ -19,3 +19,5 @@ $ npm install
 $ node start
 $ node test
 ```
+
+This application will be start at 3001 port. http://localhost:3000
